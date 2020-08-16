@@ -161,7 +161,7 @@ public class ConsoleFinder {
     HelpFormatter formatter = new HelpFormatter();
     formatter.printHelp(
         "finder -p [path] [option]",
-        "example: finder -p \"/home/admin/logs\" -r \".*\\.log$\" -v\n",
+        "example: finder -p \"/home/admin/logs\" -e \".*\\.log.*\" -v\n",
         options,
         "");
   }

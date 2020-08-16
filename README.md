@@ -21,11 +21,11 @@ usage: finder -p <path> -v
                       skipped when target file is already exist in
                       destination.
  -d,--delete          delete file
+ -e,--expression <expression>   regex to match the filename.
  -m,--move <dest>     dest is short for destination path. move will be
                       skipped when target file is already exist in
                       destination.
  -p,--path <path>     path is short for source path.
- -r,--regex <regex>   regex of file name
  -v,--verbose         show execute details
 
 ```
